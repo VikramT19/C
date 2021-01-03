@@ -1,0 +1,116 @@
+10// Note: The following output assumes an array of maximum size of 5 elements.
+// Your program requires an array of maximum size of 20, so it must be able  
+// to accept and store up to 20 elements.
+
+
+indigo 239 % ./a.out 
+10 a
+10 
+-98 a
+10 -98 
+5 a
+10 -98 5 
+67 a
+10 -98 5 67 
+5 s
+Found 5 at index 2.
+10 s
+Found 10 at index 0.
+-67 a
+10 -98 5 67 -67 
+90 a
+Failed to add 90.
+67 r
+10 -98 5 -67 
+-1 r
+Failed to remove -1.
+-5 s
+Not found -5.
+10 r
+-67 -98 5 
+-98 r
+-67 5 
+5 r
+-67 
+-67 r
+Empty array
+10 r
+Failed to remove 10.
+6 s
+Not found 6.
+100 q
+indigo 240 % 
+
+
+// Note: Program behaviours for the sorted array should be the same as above, except  
+// that the array elements must be stored and printed in non-decreasing order.
+// See examples below, assuming MAX_LENGTH = 5.
+
+indigo 240 % ./a.out 
+10 a
+10 
+-98 a
+-98 10
+5 a
+-98 5 10 
+67 a
+-98 5 10 67 
+5 s
+Found 5 at index 1.
+10 s
+Found 10 at index 2.
+-67 a
+-98 -67 5 10 67 
+90 a
+Failed to add 90.
+67 r
+-98 -67 5 10 
+-1 r
+Failed to remove -1.
+-5 s
+Not found -5.
+-67 r
+-98 5 10
+5 r
+-98 10
+-98 r
+10
+10 r
+Empty array
+10 r
+Failed to remove 10.
+6 s
+Not found 6.
+100 q
+indigo 241 % 
+
+
+
+
+
+
+
+
+
+  for(i = 0; i < size; i++) {
+            for (j = 0; j < size; j++){
+             
+              if(A[i] < A[j]) {
+                k = A[i];
+                A[i] = A[j];
+                A[j] = k; 
+              }
+            }
+      }
+
+
+
+
+
+
+
+
+
+
+
+

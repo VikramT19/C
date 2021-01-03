@@ -1,0 +1,29 @@
+indigo 235 % ./strg
+L eecs2031
+8
+l A
+1
+C hiThere
+hiThere
+c pi=3.1416 
+pi=3.1416
+H HiThere
+hItHERE
+h eecs2031FALL2020
+EECS2031fall2020
+h pi=3.1416
+PI=3.1416
+d abcd abcd
+Equal strings
+D eecs2031 eecs2001
+6
+d Hi hi
+0
+i abc 123
+a1b2c3
+I abcdef 123
+a1b2c3def
+i abc 123456
+a1b2c3456
+q anyString
+indigo 236 % 
